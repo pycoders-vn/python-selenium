@@ -33,3 +33,7 @@ py3.6-selenium_1  | Ran 2 tests in 17.822s
 py3.6-selenium_1  | 
 py3.6-selenium_1  | OK
 ```
+
+Result of **test_github_script.py**
+
+![](py3.6-selenium/test_github_profile_repositories.png)
