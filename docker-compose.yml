@@ -1,0 +1,17 @@
+version: "3"
+
+services: 
+
+  py3.6-selenium:
+    build: 
+      context: ./py3.6-selenium
+    volumes: 
+      - "./py3.6-selenium:/usr/workspace"
+
+  gh-crawler:
+    build: 
+      context: ./gh-crawler
+    volumes: 
+      - "./gh-crawler:/usr/workspace"
+        
+        
